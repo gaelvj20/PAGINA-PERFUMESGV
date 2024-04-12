@@ -1,7 +1,8 @@
+/* IMPLEMENTACION DE FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 
-
+/* ESTILOS GENERALES DE LA PAGINA (NAVEGACION, CONTENIDO) */
 *{
     margin: 0%;
     padding: 0%;
@@ -161,6 +162,8 @@ th, td {
   border-radius: 5px;
 }
 
+/* ESTILOS DE LAS OFERTAS DE LA PAGINA PRINCIPAL */
+
 .ofert {
   padding:  20px 0 0 0;
   display: flex;
@@ -208,6 +211,8 @@ th, td {
   border-radius: 5px;
   font-size: 15px;
 }
+
+/* ESTILOS PARA LOS APARTADOS DE INFORMACION RELEVANTE DE LA PAGINA */
 
 .blog{
   display: flex;

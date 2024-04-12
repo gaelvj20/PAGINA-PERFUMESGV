@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 
-
+/* ESTILOS DE NAVEGACION Y CONTENIDO */
 *{
     margin: 0%;
     padding: 0%;
@@ -159,6 +159,8 @@ th, td {
   border-radius: 5px;
 }
 
+/* ESTILO DE LOS PRODUCTOS */
+
 .btn-2{
   display: inline-block;
   padding:  7px 10px;
@@ -230,6 +232,8 @@ th, td {
   transform: scale(1.05);
 }
    
+/* ESTILO PARA HACER LA PAGINA ADAPTABLE DIFERENTES DIMENSIONES */
+
 @media(max-width:991px) {
 
   .menu{

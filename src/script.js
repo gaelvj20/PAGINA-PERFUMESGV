@@ -31,6 +31,7 @@ function leerDatosElemento(elemento){
     insertarCarrito(infoElemento);
 }
 
+//FUNCION PARA INSERTAR PRODUCTO AL CARRITO DE COMPRAS
 function insertarCarrito(elemento){
 
     const row = document.createElement('tr');
@@ -54,6 +55,7 @@ function insertarCarrito(elemento){
     lista.appendChild(row);
 }
 
+//FUNCION PARA ELIMINAR UN ELEMENTO DEL CARRITO
 function eliminarElemento(e){
     e.preventDefault();
     let elemento,
@@ -65,6 +67,7 @@ function eliminarElemento(e){
         }
 }
 
+// FUNCION PARA VACIAR EL CARRITO
 function vaciarCarrito(){
     while(lista.firstChild){
         lista.removeChild(lista.firstChild);
@@ -72,7 +75,8 @@ function vaciarCarrito(){
     return false;
 }
 
-var map = L.map('map').setView([40.7128, -74.0060], 15); // Coordenadas de ejemplo (Nueva York)
+//INTENTO FALLIDO DE QUERER AGREGAR UN MAPA
+var map = L.map('map').setView([40.7128, -74.0060], 15); 
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
